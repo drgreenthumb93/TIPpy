@@ -8,6 +8,7 @@ Check if thor is installed and right configured:
 ```
 curl --socks5 localhost:9050 --socks5-hostname localhost:9050 -s https://check.torproject.org/ | cat | grep -m 1 Congratulations | xargs
 ```
+If you see "Congratulations. This browser is configured to use Tor.", then you can proceed. Otherwise you should reconfigure you TOR settings.
 
 You need to install the following Python modules:
 
