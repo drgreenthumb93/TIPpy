@@ -12,3 +12,4 @@ You need to install the following Python modules:
 - sudo pip3 install stem
 - sudo pip3 install fake_useragent
 
+![TOR changes IP after 5s](https://raw.githubusercontent.com/drgreenthumb93/tor_ip_changer/main/ip_changer1.png)
