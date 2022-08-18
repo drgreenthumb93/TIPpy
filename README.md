@@ -3,7 +3,7 @@
 In case you have to do a wide scan and don't want to get blocked, this is the right thing for you!
 
 
-Check if thor is installed and right configured:
+Check if TOR is installed and right configured:
 
 ```
 curl --socks5 localhost:9050 --socks5-hostname localhost:9050 -s https://check.torproject.org/ | cat | grep -m 1 Congratulations | xargs
