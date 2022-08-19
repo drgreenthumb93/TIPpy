@@ -41,4 +41,10 @@ sudo service restart tor
 
 You can change the time at time.sleep(5) to eg time.sleep(50) to change you IP every 50s.
 
+Then start the script with:
+
+```
+sudo python3 TIP.py 
+```
+
 ![TOR changes IP after 5s](https://raw.githubusercontent.com/drgreenthumb93/tor_ip_changer/main/ip_changer1.png)
