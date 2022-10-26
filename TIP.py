@@ -8,10 +8,10 @@ proxies = {
     'https': 'socks5://127.0.0.1:9050'
 }
 print("Created by drgreentumb93")
-print("Changing IP Address in every 60 seconds....\n\n")
+print("Changing IP Address in every 30 seconds....\n\n")
 while True:
     headers = { 'User-Agent': UserAgent().random }
-    time.sleep(60)
+    time.sleep(30)
     with Controller.from_port(port = 9051) as c:
         c.authenticate()
         c.signal(Signal.NEWNYM)
