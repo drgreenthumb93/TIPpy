@@ -1,6 +1,6 @@
 import time
 import requests
-from fake_useragent import UserAgent
+from fake-useragent import UserAgent
 from stem import Signal
 from stem.control import Controller
 proxies = {
