@@ -1,6 +1,6 @@
 ## TIPpy or TOR IP-Changer (for Python)
 
-In case you have to do a wide scan and don't want to get blocked, this is the right thing for you!
+In case you have to do a wide scan and don't want to get blocked, this is the right tool for you.
 
 
 Check if TOR is installed and right configured:
